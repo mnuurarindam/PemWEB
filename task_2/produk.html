@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalogue</title>
+    <link rel="stylesheet" href="produk.css">
+</head>
+<body>
+    <div class="pembeli">
+        <h1>Product Catalogue</h1>
+        <form action="detail_produk.html" method="get">
+
+            <label for="nama">Jenis Produk</label><br>
+            <select name="Produk">
+                <option value="baju">Baju</option>
+                <option value="jaket">Jaket</option>
+            </select><br>
+
+            <label for="warna">Warna Produk</label><br>
+            <select name="Produk">
+                <option value="merah">Merah</option>
+                <option value="hitam">Hitam</option>
+                <option value="putih">Putih</option>
+            </select><br>
+
+            <label for="ukuran">Ukuran Produk</label><br>
+            <input type="radio" id="m" name="ukuran" value="M" class="input_radio">
+            <label for="M">M</label>
+            <input type="radio" id="l" name="ukuran" value="L" class="input_radio">
+            <label for="L">L</label>
+            <input type="radio" id="xl" name="ukuran" value="XL" class="input_radio">
+            <label for="XL">XL</label>
+            <input type="radio" id="xxl" name="ukuran" value="XXL" class="input_radio">
+            <label for="XXL">XXL</label><br>
+
+            <button id="submit" class="submit">Detail Produk</button>
+
+        </form>
+    </div>
+</body>
+</html>
