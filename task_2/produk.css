@@ -32,7 +32,7 @@ p{
     line-height: 60px;
 }
 
-.pembeli{
+.produk{
     width: 575px;
     padding-left: 60px;
     padding-bottom: 30px;
@@ -41,7 +41,7 @@ p{
     background-color: white;
 }
 
-.pembeli select{
+.produk select{
     width: 500px;
     height: 40px;
     background-color: #F6F8FA;
